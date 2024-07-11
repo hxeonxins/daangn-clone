@@ -10,7 +10,7 @@ header {
   position: fixed;
   z-index: 5;
   top: 0px; /* 도달했을때 고정시킬 위치 */
-  height: 64px;
+  height: 70px;
   width: 100%;
   background-color: #ffffff;
 }
@@ -24,6 +24,7 @@ header {
 }
 a {
   text-align: center;
+  color:black;
 }
 a:visited {
   color: black;
@@ -40,7 +41,7 @@ a:active {
 }
 
 .bigBox1 {
-  width: 1155px;
+  width: 1400px;
   height: 64px;
   display: flex;
   justify-content: center;
@@ -51,7 +52,7 @@ a:active {
   display: flex;
   justify-content: flex-start;
   align-items: end;
-  width: 670px;
+  width: 900px;
   height: 25px;
   margin: 0 auto;
 }
@@ -103,42 +104,41 @@ button {
 }
 
 
-#section1,
-#section2,
-#section3,
-#section4,
-footer {
+#section1{
   height: 750px;
 }
 
 .indexMain {
-  height: 750px;
+  width: 100%;
+  height: 900px;
   background-color: #fffae0;
+  padding-bottom: 200px;
+  padding-left: 100px;
 }
 .font {
-  font-size: 53.4px;
-  line-height: 76px;
+  font-size: 48px;
+  line-height: 70px;
   width: 1024px;
   height: 137px;
+  padding-left: 20px;
+  padding-top: 40px;
 }
-p{
-  padding: 40px 0px 0px;
+#indexP{
+  padding-left: 20px;
+  padding-top: 65px;
   font-size: 20px;
   line-height: 32px;
   color: #7c7c7c;
   height: 60px;
 }
 #daangnee {
-  position: relative;
-  bottom: 650px;
-  left: 750px;
-  width: 645px;
-  height: 790px;
+  margin-left: 800px;
+  margin-top: -630px;
+  width: 680px;
+  height: 825px;
 }
 #test {
-  display: block;
-  justify-content: center;
-  align-items: center;
+  display: flex;
   padding: 14%;
   flex-direction: column;
 }
@@ -183,26 +183,16 @@ span {
 }
 
 #buttonSort{
-  width: 27%;
+  width: 22%;
   height: 56px;
-  position: relative;
-  bottom: 930px;
-  left: 5px;
-  margin-left: 199px;
   display: flex;
   justify-content: space-between;
+  margin-left: 250px;
+  margin-top: -340px;
 }
-#section1,
-#section3 {
+
+#section1 {
   background-color: #f9f9f9;
-}
-
-#section2 {
-  background-color: #fff8f1;
-}
-
-#section4 {
-  background-color: #f6fdeb;
 }
 
 footer {
@@ -213,12 +203,9 @@ footer {
 #banner {
   width: 100%;
   height: 380px;
-  padding-right: 23%;
-  padding-left: 24%;
+  padding-right: 37%;
+  padding-left: 30%;
   background-color: #FFF1AA;
-  /* display: flex; */
-  /* justify-content: flex-end; */
-  /* align-items: end; */
 }
 
 #headerBanner {
@@ -243,6 +230,44 @@ footer {
   height: 47.52px;
   color: #212529;
   position: relative;
-  bottom: -65px;
+  bottom: -105px;
   left: 3px;
+}
+
+#product > h1 {
+  font-size: 32px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+.list{
+  height: 1542px;
+  width: 757px;
+}
+.item {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+article{
+  margin-bottom: 50px;
+  margin-right: 50px;
+}
+.productImg {
+  width: 223px;
+  height: 230px;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #a3a1a1;
+  margin-bottom: 20px;
+}
+
+#wrapFooter {
+  display: flex;
+  justify-content:center;
+  margin-top: 50px;
+}
+
+p {
+  line-height: 30px;
+  font-size: 16px;
 }
